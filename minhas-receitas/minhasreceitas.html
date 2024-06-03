@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minhas Receitas</title>
+    <link rel="stylesheet" href="minhasReceitas-styles.css" />
+    <link rel="stylesheet" href="../menu-lateral/menuLateral-styles.css" />
+    <link rel="shortcut icon" href="../Imagens/icon.ico" type="image/x-icon" />
+    <link rel="icon" href="../Imagens/icon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <nav class="menuLateral">
+      <div class="expandir">
+        <i class="icon"> <span class="material-icons">menu</span> </i>
+      </div>
+
+      <ul>
+        <li class="item-menu">
+          <a href="../perfil/perfil.html">
+            <span class="icon">
+              <span class="material-icons">person</span>
+            </span>
+            <span class="txt-link"> Perfil </span>
+          </a>
+        </li>
+
+        <li class="item-menu">
+          <a href="../menu/menu.html">
+            <span class="icon"> <span class="material-icons">home</span> </span>
+
+            <span class="txt-link"> Menu </span>
+          </a>
+        </li>
+
+        <li class="item-menu">
+          <a href="../index.html">
+            <span class="icon">
+              <span class="material-icons">restaurant</span>
+            </span>
+
+            <span class="txt-link"> Receitas </span>
+          </a>
+        </li>
+
+        <li class="item-menu">
+          <a href="../favoritos/favoritos.html">
+            <span class="icon">
+              <span class="material-icons">favorite</span>
+            </span>
+
+            <span class="txt-link"> Favoritos </span>
+          </a>
+        </li>
+
+        <li class="item-menu">
+          <a href="../login/login.html">
+            <span class="icon">
+              <span class="material-icons">logout</span>
+            </span>
+
+            <span class="txt-link"> Sair </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="minhas_receitas-header">
+      <h1>MINHAS RECEITAS</h1>
+      <img src="../Imagens/logo.png" class="logo" alt="Logo" />
+    </header>
+
+    <select id="sort-select" class="sort-select" onchange="sortRecipes()">
+      <option value="name">Nome</option>
+      <option value="date">Data de Adição</option>
+      <option value="rating">Avaliação</option>
+    </select>
+
+    <section class="minhas_receitas-section">
+      <div class="receitas-card">
+        <a href="../receitas-salgado/receitas-salgado.html">
+          <img src="../Imagens/HamburguerSoja.jpeg" alt="Salgada" />
+          <h3>Hamburguer de Soja</h3>
+        </a>
+        <p>Este hambúrguer vegano é delicioso e bem fácil de preparar.</p>
+        <button class="remover-favoritos">Remover</button>
+      </div>
+
+      <div class="receitas-card">
+        <a href="../receitas-bebida/receitas-bebida.html">
+          <img src="../Imagens/MilkShakedeBanana.jpg" alt="Bebida" />
+          <h3>MilkShake de Banana com Cacau</h3>
+        </a>
+        <p>
+          Aprenda a fazer um milkshake irresistível, que combina a suavidade da
+          banana com o sabor intenso do cacau.
+        </p>
+        <button class="remover-favoritos">Remover</button>
+      </div>
+      <div class="receitas-card">
+        <a href="../receitas-doce/receitas-doce.html">
+          <img src="../Imagens/PicoléAbacate.jpg" alt="Doce" />
+          <h3>Picolé de Abacate</h3>
+        </a>
+        <p>
+          Aqui está uma receita simples, deliciosa e refrescante para fazer
+          picolés nutritivos em casa.
+        </p>
+        <button class="remover-favoritos">Remover</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Desenvolvido por Ana Beatriz Maciel, Brenda Beatriz Cristaldo e Thaisse
+        Kirian Veiga. Alunas de Engenharia de Software na UTFPR-CP - 2024
+      </p>
+    </footer>
+  </body>
+</html>

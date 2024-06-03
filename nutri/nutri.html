@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nutricionista - Chat</title>
+    <link rel="stylesheet" href="nutri-styles.css" />
+    <link rel="stylesheet" href="../menu-lateral/menuLateral-styles.css" />
+    <link rel="shortcut icon" href="../Imagens/icon.ico" type="image/x-icon" />
+    <link rel="icon" href="../Imagens/icon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <header class="nutri-header">
+      <h1>Nutricionista</h1>
+      <img src="../Imagens/logo.png" class="logo" alt="Logo" />
+    </header>
+    <div class="app-container">
+      <nav class="menuLateral">
+        <div class="expandir">
+          <i class="icon"> <span class="material-icons">menu</span> </i>
+        </div>
+        <ul>
+          <li class="item-menu">
+            <a href="../perfil/perfil.html">
+              <span class="icon">
+                <span class="material-icons">person</span>
+              </span>
+
+              <span class="txt-link"> Perfil </span>
+            </a>
+          </li>
+
+          <li class="item-menu">
+            <a href="../menu/menu.html">
+              <span class="icon">
+                <span class="material-icons">home</span>
+              </span>
+
+              <span class="txt-link"> Menu </span>
+            </a>
+          </li>
+
+          <li class="item-menu">
+            <a href="../index.html">
+              <span class="icon">
+                <span class="material-icons">restaurant</span>
+              </span>
+
+              <span class="txt-link"> Receitas </span>
+            </a>
+          </li>
+
+          <li class="item-menu">
+            <a href="../favoritos/favoritos.html">
+              <span class="icon">
+                <span class="material-icons">favorite</span>
+              </span>
+
+              <span class="txt-link"> Favoritos </span>
+            </a>
+          </li>
+
+          <li class="item-menu">
+            <a href="../login/login.html">
+              <span class="icon">
+                <span class="material-icons">logout</span>
+              </span>
+
+              <span class="txt-link"> Sair </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <aside class="contatos-sidebar">
+        <div class="contatos-header">
+          <h2>Mensagens</h2>
+        </div>
+        <ul class="contatos-list">
+          <li class="contato">
+            <img src="../Imagens/user-fem.png" alt="user-fem" />
+            Nutricionista
+          </li>
+          <li class="contato">
+            <img src="../Imagens/user-masc1.png" alt="user-masc1" />
+            Nutricionista - 1
+          </li>
+          <li class="contato">
+            <img src="../Imagens/user-fem3.png" alt="user-fem3" />
+            Nutricionista - 2
+          </li>
+        </ul>
+      </aside>
+      <main class="chat-container">
+        <div class="chat-header">
+          <img src="../Imagens/user-fem.png" alt="perfil1" />
+          <h2>Nutricionista</h2>
+        </div>
+        <div class="chat-mensagens">
+          <div class="message received">
+            <img src="../Imagens/user-fem.png" alt="" />
+            <p>Oi, tudo bem? Em que posso ajudar?</p>
+          </div>
+          <div class="messagem-enviada">
+            <p>Oi, tudo sim. Gostaria de tirar uma dúvida sobre receitas...</p>
+          </div>
+        </div>
+        <div class="chat-input">
+          <input type="text" placeholder="Digite sua mensagem..." />
+          <button>Enviar</button>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <p>
+        Desenvolvido por Ana Beatriz Maciel, Brenda Beatriz Cristaldo e Thaisse
+        Kirian Veiga. Alunas de Engenharia de Software na UTFPR-CP - 2024
+      </p>
+    </footer>
+  </body>
+</html>
