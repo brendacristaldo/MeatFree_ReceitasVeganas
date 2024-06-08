@@ -8,7 +8,7 @@ Em resumo, o projeto meat free oferece uma solução completa para os desafios r
 - ODS 12 - Consumo e Produção Responsáveis: Ao incentivar o consumo de receitas vegetarianas e fornecer informações sobre nutrição, o projeto promove um estilo de vida mais sustentável e consciente, contribuindo para padrões de consumo mais responsáveis.
 
 ## Site
-Link para o acesso: https://anabmferraz.github.io/MeatFree.github.io/index.html
+Link para o acesso: https://brendacristaldo.github.io/MeatFree_ReceitasVeganas/
 
 ## Integrantes
 <ul>
